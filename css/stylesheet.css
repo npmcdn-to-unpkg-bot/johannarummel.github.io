@@ -1,0 +1,332 @@
+
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+  padding: 0;
+  margin:0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #83c3e8;
+}
+
+
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+
+
+
+}
+
+.delicious-fixed-border{
+border-top: 10px solid #83c3e8;
+position:fixed;
+top:0;
+left: 0;
+right: 0;
+background: #fff;
+width: 100%;
+margin:0 auto;
+display: block;
+
+}
+.row {
+  display: inline-block;
+  width: 100%;
+  padding: 1em;
+}
+
+.header {
+width: 100%;
+position:relative;
+background-color:#fff;
+
+}
+
+
+
+.fixed-margin-top{
+  padding-top: 365px;
+}
+
+
+
+@media only screen and (min-width: 310px) {
+  .fixed-margin-top{
+    padding-top: 322px;
+  }
+}
+
+
+
+@media only screen and (min-width: 720px) {
+  .fixed-margin-top{
+    padding-top: 179px;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 720px) {
+  .row {
+    padding: 1.5em 4em;
+  }
+}
+
+
+
+.logo {
+  display: inline-block;
+  width: auto;
+  color: #83c3e8;
+  margin-bottom: 2em;
+
+}
+
+
+
+.main-nav,
+.main-nav__list {
+  width: 100%;
+}
+
+.main-nav__list {
+  padding: 0;
+  margin: 0;
+  border-bottom: 3px solid #83c3e8;
+}
+
+.main-nav__list__item {
+  list-style: none;
+}
+
+
+
+@media only screen and (min-width: 720px) {
+  .main-nav__list__item {
+    display: inline-block;
+  }
+}
+
+.main-nav__list__item a {
+  display: inline-block;
+  width: 100%;
+  padding: 1em;
+  text-decoration: none;
+  color: #83c3e8;
+}
+
+
+
+.main-nav__list__item a:hover,
+.main-nav__list__item a.activ {
+  background: #83c3e8;
+  color: white;
+}
+
+
+
+@media only screen and (min-width: 720px) {
+  .article h1 {
+    font-size: 2.25rem;
+  }
+
+  .article p {
+    font-size: 1.125rem;
+  }
+}
+
+.article p {
+  line-height: 1.5;
+}
+
+.article a {
+  color: #83c3e8;
+}
+
+.article a:hover {
+  text-decoration: none;
+}
+
+.article__body {
+  width: 100%;
+  max-width: 750px;
+}
+
+
+
+.projects__list {
+  display: block;
+  width: 100%;
+  margin: 0 -0.5em 0 -0.5em;
+  padding: 0;
+}
+
+
+@media only screen and (min-width: 720px) {
+  .projects__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+.projects__list__item {
+  width: 100%;
+  margin: 0.5em;
+  list-style: none;
+  border: 2px solid #83c3e8;
+  text-align: center;
+}
+
+@media only screen and (min-width: 720px) {
+  .projects__list__item {
+    width: calc(32.33% - 0.5em);
+  }
+}
+
+
+.projects__list__item a {
+  display: block;
+  padding: 4em;
+  color: #83c3e8;
+  text-decoration: none;
+}
+
+.projects__list__item a:hover {
+  background: #83c3e8;
+  color: white;
+}
+
+
+
+a.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: 83c3e8;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #83c3e8;
+}
+
+a.button:hover {
+  background: white;
+  color: #83c3e8;
+}
+
+
+
+.slideshow img {
+  display: block;
+  width: 100%;
+}
+
+.carousel-cell {
+  width: 100%;
+}
+
+
+
+
+@media only screen and (min-width: 720px) {
+  ...
+}
+
+
+
+@media only screen and (min-width: 980px) {
+  ...
+}
+
+
+
+.box {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+
+}
+
+.box__item {
+  float: left;
+  display: inline-block;
+  width: calc(33.33% - 0.5em);
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  margin-bottom: 1em;
+  border: 1px solid #83c3e8;
+}
+
+.box__item .img-link-mouseover {
+  display: none;
+}
+
+.box__item:hover .img-link-mouseover {
+  display: block;
+}
+
+.box__item:hover .img-link {
+  display: none;
+}
+
+
+.bild1 {
+
+  background: url('../image/fotos.jpg');
+     background-size: 100%;
+     background-repeat: none;
+     background-position: center center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.abstand {
+  width:100%;
+padding: 0 10em;
+padding-bottom: 1em;
+
+}
+
+.projekte
+{
+  color: #83c3e8;
+  margin-top: 10%;
+  font-size: 1.5rem;
+}
+
+.igfb{
+
+  float: left;
+  display: inline-block;
+  width: calc(10% - 0.5em);
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  margin-bottom: 1em;
+
+
+}
+
+.about{
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+  margi-bottom: 100em;
+
+}
